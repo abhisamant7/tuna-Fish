@@ -1,0 +1,50 @@
+Arguments: 
+  /home/abhi/.nvm/versions/node/v8.16.0/bin/node /home/abhi/.yarn/bin/yarn.js
+
+PATH: 
+  /home/abhi/.nvm/versions/node/v8.16.0/bin:/home/abhi/.yarn/bin:/home/abhi/.config/yarn/global/node_modules/.bin:/home/abhi/bin:/home/abhi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/abhi/Documents/goworkspace/bin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  8.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, rmdir '/home/abhi/hyperledgerpro1/education/LFS171x/fabric-material/tuna-app/node_modules/send/node_modules/ms'
+
+npm manifest: 
+  {
+      "name": "app",
+      "version": "1.0.0",
+      "description": "Hyperledger Fabric MOOC Sample Application",
+      "main": "server.js",
+      "dependencies": {
+          "angular": "^1.7.8",
+          "body-parser": "latest",
+          "ejs": "latest",
+          "express": "latest",
+          "fabric-ca-client": "^1.4.1",
+          "fabric-client": "^1.4.1",
+          "grpc": "^1.20.3"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+          "Hyperledger",
+          "Fabric",
+          "Oceans",
+          "Tuna",
+          "Fishing",
+          "Sample",
+          "Application"
+      ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
